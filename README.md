@@ -1,7 +1,7 @@
 # Serre_connectee
-Serre connectée
+Serre connectée 
 
-Jeudi 03/04/2025
+Jeudi 03/04/2025 8H --> 12H
 
 Code arduino des capteurs, un code de test pour Humidité, Température "temp_hum.ino" puis un autre code de test pour Luminosité "lum.ino"
 
