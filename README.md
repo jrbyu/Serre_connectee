@@ -3,7 +3,22 @@ Serre connectée
 
 Jeudi 03/04/2025 8H --> 12H
 
-Répartition des taches dans le groupe
+Répartition des taches dans le groupe :
+- Ibrahim :
+  - Site HTML
+  - Stocker les données
+  - Code Servomoteur
+  - Chauffage
+  - Volet d'aération
+- Gaël :
+  - Codes capteurs :
+    - Humidité
+    - Température
+    - luminosité
+  - Monitoring (cloud)
+  - Communiquer les données
+  - Transmettre les données
+
 
 Test des compasants :
  - Code arduino des capteurs, un code de test pour Humidité, Température "temp_hum.ino" puis un autre code de test pour Luminosité "lum.ino"
