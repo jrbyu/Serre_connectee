@@ -1,15 +1,17 @@
-
+#include <Servo.h>
 #include <DHT.h>
 
 #define DHTPIN 6      // Broche où est connecté le DHT22
 #define DHTTYPE DHT11 // Type du capteur
-
+const int servoPin = 9;
+Servo myServo;
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
     Serial.begin(9600);
     Serial.println("Initialisation du capteur DHT22...");
     dht.begin();
+    myServo.attach(servoPin);
 }
 
 
@@ -49,5 +51,16 @@ void loop() {
   }
   
       Serial.println("--------------------");
+
+
+    for (int angle = 0; angle <= 180; angle++) {
+    myServo.write(angle); 
+    delay(0);           
+  }
+
+  for (int angle = 180; angle >= 0; angle--) {
+    myServo.write(angle); 
+    delay(0);          
+  }
 
 }
