@@ -1,2 +1,2 @@
 # Serre_connectee
-Serre connecté cours Cavalera
+Serre connectée
