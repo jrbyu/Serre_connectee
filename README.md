@@ -29,3 +29,8 @@ Test des compasants :
 Jeudi 24/04/2025 8H --> 12H
 
 Creation du code final avec la page html pour le pilotage de la serre connectée 
+
+Mardi 29/04/2025 -->
+
+Optimisation page HTML
+debut code esp
